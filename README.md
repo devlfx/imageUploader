@@ -27,6 +27,6 @@ pod install
 ```
 3. Open with xcode.
 4. Compile and launch in simulator.
+5. En Firebase debe existir la colección users.
+6. No incluye el Google-services-plist.
 
-### test Credentials
-test3@test.com : test12
