@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		306ADD2F2625304F006BD671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD2E2625304F006BD671 /* AppDelegate.swift */; };
 		306ADD312625304F006BD671 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD302625304F006BD671 /* SceneDelegate.swift */; };
-		306ADD332625304F006BD671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD322625304F006BD671 /* ViewController.swift */; };
-		306ADD362625304F006BD671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306ADD342625304F006BD671 /* Main.storyboard */; };
-		306ADD3826253050006BD671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306ADD3726253050006BD671 /* Assets.xcassets */; };
 		306ADD3B26253050006BD671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306ADD3926253050006BD671 /* LaunchScreen.storyboard */; };
+		306ADD80262535FD006BD671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 306ADD7F262535FD006BD671 /* GoogleService-Info.plist */; };
+		306ADD842625375D006BD671 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD832625375D006BD671 /* LoginViewController.swift */; };
+		306ADD8726253799006BD671 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD8626253799006BD671 /* MainNavigationController.swift */; };
+		306ADD8A26253808006BD671 /* UploadPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD8926253808006BD671 /* UploadPhotoViewController.swift */; };
+		306ADD8D26253837006BD671 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD8C26253837006BD671 /* DetailViewController.swift */; };
+		306ADD9026253865006BD671 /* LoginNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD8F26253865006BD671 /* LoginNavigationControllerViewController.swift */; };
+		306ADD932625388F006BD671 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD922625388F006BD671 /* SignInViewController.swift */; };
+		306ADD96262538B6006BD671 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD95262538B6006BD671 /* APICaller.swift */; };
+		306ADD99262538D6006BD671 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD98262538D6006BD671 /* AuthManager.swift */; };
+		306ADD9C262538FB006BD671 /* UploadHeaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD9B262538FB006BD671 /* UploadHeaderDelegate.swift */; };
+		306ADD9F2625399E006BD671 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADD9E2625399E006BD671 /* ImageCollectionViewCell.swift */; };
+		306ADDA3262539C9006BD671 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADDA2262539C9006BD671 /* HeaderCollectionReusableView.swift */; };
+		306ADDA826253AE6006BD671 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306ADDA726253AE6006BD671 /* Extensions.swift */; };
+		306ADDAF26253DFF006BD671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306ADDAE26253DFF006BD671 /* Assets.xcassets */; };
+		CF3571088CCFD22B2CDF69EB /* Pods_ImageUploader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2AA4A5BAECE81EF341498 /* Pods_ImageUploader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22977D6CBE6C3561A76925A2 /* Pods-ImageUploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageUploader.debug.xcconfig"; path = "Target Support Files/Pods-ImageUploader/Pods-ImageUploader.debug.xcconfig"; sourceTree = "<group>"; };
 		306ADD2B2625304F006BD671 /* ImageUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		306ADD2E2625304F006BD671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		306ADD302625304F006BD671 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		306ADD322625304F006BD671 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		306ADD352625304F006BD671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		306ADD3726253050006BD671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		306ADD3A26253050006BD671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		306ADD3C26253050006BD671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306ADD7F262535FD006BD671 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		306ADD832625375D006BD671 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		306ADD8626253799006BD671 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		306ADD8926253808006BD671 /* UploadPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoViewController.swift; sourceTree = "<group>"; };
+		306ADD8C26253837006BD671 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		306ADD8F26253865006BD671 /* LoginNavigationControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		306ADD922625388F006BD671 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		306ADD95262538B6006BD671 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		306ADD98262538D6006BD671 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		306ADD9B262538FB006BD671 /* UploadHeaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadHeaderDelegate.swift; sourceTree = "<group>"; };
+		306ADD9E2625399E006BD671 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		306ADDA2262539C9006BD671 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		306ADDA726253AE6006BD671 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		306ADDAE26253DFF006BD671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ImageUploader/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		6CC2AA4A5BAECE81EF341498 /* Pods_ImageUploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageUploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D4334DF524840A85828F58 /* Pods-ImageUploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageUploader.release.xcconfig"; path = "Target Support Files/Pods-ImageUploader/Pods-ImageUploader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3571088CCFD22B2CDF69EB /* Pods_ImageUploader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				306ADD2D2625304F006BD671 /* ImageUploader */,
 				306ADD2C2625304F006BD671 /* Products */,
+				8CAEEF0A9399AADFB7C380D7 /* Pods */,
+				3427A73D61BE4173DE5750CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,83 @@
 		306ADD2D2625304F006BD671 /* ImageUploader */ = {
 			isa = PBXGroup;
 			children = (
-				306ADD2E2625304F006BD671 /* AppDelegate.swift */,
-				306ADD302625304F006BD671 /* SceneDelegate.swift */,
-				306ADD322625304F006BD671 /* ViewController.swift */,
-				306ADD342625304F006BD671 /* Main.storyboard */,
-				306ADD3726253050006BD671 /* Assets.xcassets */,
-				306ADD3926253050006BD671 /* LaunchScreen.storyboard */,
+				306ADD752625350F006BD671 /* Resources */,
+				306ADD71262534F4006BD671 /* Views */,
+				306ADD6F262534E5006BD671 /* Protocols */,
+				306ADD6D262534DC006BD671 /* Managers */,
+				306ADD6B262534D0006BD671 /* Controllers */,
+				306ADD7F262535FD006BD671 /* GoogleService-Info.plist */,
 				306ADD3C26253050006BD671 /* Info.plist */,
 			);
 			path = ImageUploader;
+			sourceTree = "<group>";
+		};
+		306ADD6B262534D0006BD671 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				306ADD832625375D006BD671 /* LoginViewController.swift */,
+				306ADD8626253799006BD671 /* MainNavigationController.swift */,
+				306ADD8926253808006BD671 /* UploadPhotoViewController.swift */,
+				306ADD8C26253837006BD671 /* DetailViewController.swift */,
+				306ADD8F26253865006BD671 /* LoginNavigationControllerViewController.swift */,
+				306ADD922625388F006BD671 /* SignInViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		306ADD6D262534DC006BD671 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				306ADD95262538B6006BD671 /* APICaller.swift */,
+				306ADD98262538D6006BD671 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		306ADD6F262534E5006BD671 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				306ADD9B262538FB006BD671 /* UploadHeaderDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		306ADD71262534F4006BD671 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				306ADD3926253050006BD671 /* LaunchScreen.storyboard */,
+				306ADD9E2625399E006BD671 /* ImageCollectionViewCell.swift */,
+				306ADDA2262539C9006BD671 /* HeaderCollectionReusableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		306ADD752625350F006BD671 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				306ADD2E2625304F006BD671 /* AppDelegate.swift */,
+				306ADD302625304F006BD671 /* SceneDelegate.swift */,
+				306ADDA726253AE6006BD671 /* Extensions.swift */,
+				306ADDAE26253DFF006BD671 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3427A73D61BE4173DE5750CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2AA4A5BAECE81EF341498 /* Pods_ImageUploader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CAEEF0A9399AADFB7C380D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22977D6CBE6C3561A76925A2 /* Pods-ImageUploader.debug.xcconfig */,
+				B8D4334DF524840A85828F58 /* Pods-ImageUploader.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 306ADD3F26253050006BD671 /* Build configuration list for PBXNativeTarget "ImageUploader" */;
 			buildPhases = (
+				381C36C4FED381DBA74461BF /* [CP] Check Pods Manifest.lock */,
 				306ADD272625304F006BD671 /* Sources */,
 				306ADD282625304F006BD671 /* Frameworks */,
 				306ADD292625304F006BD671 /* Resources */,
+				17B02AA0CC84B40B6ADFA1FB /* [CP] Embed Pods Frameworks */,
+				A85AE566D10426C2F79D597B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,35 +225,97 @@
 			buildActionMask = 2147483647;
 			files = (
 				306ADD3B26253050006BD671 /* LaunchScreen.storyboard in Resources */,
-				306ADD3826253050006BD671 /* Assets.xcassets in Resources */,
-				306ADD362625304F006BD671 /* Main.storyboard in Resources */,
+				306ADDAF26253DFF006BD671 /* Assets.xcassets in Resources */,
+				306ADD80262535FD006BD671 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B02AA0CC84B40B6ADFA1FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageUploader/Pods-ImageUploader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageUploader/Pods-ImageUploader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImageUploader/Pods-ImageUploader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		381C36C4FED381DBA74461BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageUploader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A85AE566D10426C2F79D597B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageUploader/Pods-ImageUploader-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageUploader/Pods-ImageUploader-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImageUploader/Pods-ImageUploader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		306ADD272625304F006BD671 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				306ADD332625304F006BD671 /* ViewController.swift in Sources */,
+				306ADDA3262539C9006BD671 /* HeaderCollectionReusableView.swift in Sources */,
+				306ADD8726253799006BD671 /* MainNavigationController.swift in Sources */,
+				306ADD842625375D006BD671 /* LoginViewController.swift in Sources */,
+				306ADD9F2625399E006BD671 /* ImageCollectionViewCell.swift in Sources */,
+				306ADD9C262538FB006BD671 /* UploadHeaderDelegate.swift in Sources */,
+				306ADD96262538B6006BD671 /* APICaller.swift in Sources */,
 				306ADD2F2625304F006BD671 /* AppDelegate.swift in Sources */,
+				306ADD9026253865006BD671 /* LoginNavigationControllerViewController.swift in Sources */,
+				306ADD932625388F006BD671 /* SignInViewController.swift in Sources */,
+				306ADD8A26253808006BD671 /* UploadPhotoViewController.swift in Sources */,
+				306ADD99262538D6006BD671 /* AuthManager.swift in Sources */,
 				306ADD312625304F006BD671 /* SceneDelegate.swift in Sources */,
+				306ADD8D26253837006BD671 /* DetailViewController.swift in Sources */,
+				306ADDA826253AE6006BD671 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		306ADD342625304F006BD671 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				306ADD352625304F006BD671 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		306ADD3926253050006BD671 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +445,7 @@
 		};
 		306ADD4026253050006BD671 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22977D6CBE6C3561A76925A2 /* Pods-ImageUploader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +465,7 @@
 		};
 		306ADD4126253050006BD671 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D4334DF524840A85828F58 /* Pods-ImageUploader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
